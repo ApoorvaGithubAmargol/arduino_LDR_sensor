@@ -1,5 +1,8 @@
 # arduino_LDR_sensor
 
+
+Code for this is attached in the same repo with name "code.ino". It was run on Arduino IDE
+
 Diving into learning various sensors, I came across LDR sensor.
 It is basically a variable resistor which changes resistivity with amount of light falling on it. When there is large amount of light falling on it , it becomes highly resistive because it absorbes photons. As less amount of light falls on it, the number of carrier charger inside the LDR increases thus allowing more current to pass through it. You can understand it better by this image.
 
