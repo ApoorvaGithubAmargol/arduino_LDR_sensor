@@ -13,16 +13,16 @@ void setup() {
 void loop() {
   int   ldrStatus = analogRead(ldrPin);   //read the status of the LDR value
 
-  //check   if the LDR status is <= 80 then led is high
+  //check   if the LDR status is <= 80 then led is low
 
 Serial.println(ldrStatus);
    if (ldrStatus <=80) {
 
-    digitalWrite(ledPin,   HIGH);               //turn LED on
+    digitalWrite(ledPin,   LOW);               //turn LED on
 
    }
   else {
 
-    digitalWrite(ledPin,   LOW);          //turn LED off
+    digitalWrite(ledPin,   HIGH);          //turn LED off
   }
 }
